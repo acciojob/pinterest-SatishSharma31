@@ -1,1 +1,79 @@
 /*  your css code here. If applicable */
+body {
+  font-family: poppins;
+  color: #000;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: row;
+  width: 900px;
+  margin: 40px auto;
+  /* gap: 10px; */
+}
+.contentBox {
+  display: flex;
+  flex: 30%;
+  background: #fff;
+  flex-direction: column;
+  /* padding: 0 20px; */
+  align-items: center;
+  justify-content: center;
+}
+.contentBox h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.contentBox p {
+  font-size: 12px;
+  /* font-weight: 200; */
+  text-align: center;
+  margin: 0;
+  padding: 5px 24px;
+}
+.contentBox button {
+  background: red;
+  padding: 6px 5px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 85px;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin: 10px auto;
+}
+
+.bannerImg {
+  display: flex;
+  flex: 80%;
+  height: 300px;
+}
+.bannerImg img {
+  display: flex;
+  flex: 100%;
+}
+
+@media (max-width:900px) {
+  .hero {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+    margin: 40px auto;
+    /* gap: 10px; */
+  }
+  .contentBox {
+    padding: 30px;
+  }
+}
