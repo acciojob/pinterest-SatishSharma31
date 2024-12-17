@@ -61,6 +61,7 @@ body {
 .bannerImg img {
   display: flex;
   flex: 100%;
+	object-fit:cover;
 }
 
 @media (max-width:900px) {
